@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MercadoPro - Mais Gestão e Lucratividade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#00A878",
+              "primary-dark": "#008F66",
+              "background-light": "#FFFFFF",
+              "background-dark": "#0B1120",
+              "navy-dark": "#0F172A",
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              display: ["Montserrat", "sans-serif"],
+            },
+            borderRadius: {
+              '3xl': "1.5rem",
+              '4xl': "2.5rem",
+            },
+            boxShadow: {
+              'premium': '0 25px 50px -12px rgba(0, 0, 0, 0.06)',
+              'premium-hover': '0 35px 60px -12px rgba(0, 168, 120, 0.12)',
+            }
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer base {
+        body {
+          @apply bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-100 antialiased selection:bg-primary/30;
+          font-family: "Inter", sans-serif;
+        }
+        h1, h2, h3 {
+          font-family: "Montserrat", sans-serif;
+        }
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+      }
+      .dark .glass-card {
+        background: rgba(15, 23, 42, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .hero-gradient {
+        background: radial-gradient(circle at 70% 30%, rgba(0, 168, 120, 0.05) 0%, rgba(255, 255, 255, 1) 70%);
+      }
+      .dark .hero-gradient {
+        background: radial-gradient(circle at 70% 30%, rgba(0, 168, 120, 0.1) 0%, rgba(11, 17, 32, 1) 70%);
+      }
+      .cta-radial-gradient {
+        background: radial-gradient(circle at center, rgba(0, 168, 120, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
+      }
+      .dark .cta-radial-gradient {
+        background: radial-gradient(circle at center, rgba(0, 168, 120, 0.1) 0%, rgba(15, 23, 42, 1) 100%);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="scroll-smooth">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

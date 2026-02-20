@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a9b8a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Fundo verde gradiente arredondado -->
+  <rect width="100" height="100" rx="22" ry="22" fill="url(#bg)"/>
+  <!-- Ícone de loja (store) centralizado -->
+  <g transform="translate(22, 28) scale(0.56)" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Telhado/toldo -->
+    <path d="M4 20 L16 4 L84 4 L96 20 Z"/>
+    <!-- Parte ondulada do toldo -->
+    <path d="M4 20 Q16 28 28 20 Q40 12 52 20 Q64 28 76 20 Q88 12 96 20"/>
+    <!-- Corpo da loja -->
+    <rect x="10" y="32" width="80" height="56" rx="4"/>
+    <!-- Porta -->
+    <rect x="35" y="60" width="30" height="28" rx="4"/>
+  </g>
+</svg>
