@@ -1,62 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
+
+<head>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1856124814956539');
     fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1856124814956539&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MercadoPro - Mais Gestão e Lucratividade</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <script>
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              primary: "#00A878",
-              "primary-dark": "#008F66",
-              "background-light": "#FFFFFF",
-              "background-dark": "#0B1120",
-              "navy-dark": "#0F172A",
-            },
-            fontFamily: {
-              sans: ["Inter", "sans-serif"],
-              display: ["Montserrat", "sans-serif"],
-            },
-            borderRadius: {
-              '3xl': "1.5rem",
-              '4xl': "2.5rem",
-            },
-            boxShadow: {
-              'premium': '0 25px 50px -12px rgba(0, 0, 0, 0.06)',
-              'premium-hover': '0 35px 60px -12px rgba(0, 168, 120, 0.12)',
-            }
+  </script>
+  <!-- End Meta Pixel Code -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MercadoPro - Mais Gestão e Lucratividade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#00A878",
+            "primary-dark": "#008F66",
+            "background-light": "#FFFFFF",
+            "background-dark": "#0B1120",
+            "navy-dark": "#0F172A",
           },
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+            display: ["Montserrat", "sans-serif"],
+          },
+          borderRadius: {
+            '3xl': "1.5rem",
+            '4xl': "2.5rem",
+          },
+          boxShadow: {
+            'premium': '0 25px 50px -12px rgba(0, 0, 0, 0.06)',
+            'premium-hover': '0 35px 60px -12px rgba(0, 168, 120, 0.12)',
+          }
         },
-      };
-    </script>
-    <style type="text/tailwindcss">
-      @layer base {
+      },
+    };
+  </script>
+  <style type="text/tailwindcss">
+    @layer base {
         body {
           @apply bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-100 antialiased selection:bg-primary/30;
           font-family: "Inter", sans-serif;
@@ -97,10 +100,15 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="scroll-smooth">
-    <div id="root"></div>
+
+<body class="scroll-smooth">
+  <!-- Meta Pixel noscript fallback -->
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1856124814956539&ev=PageView&noscript=1" /></noscript>
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
