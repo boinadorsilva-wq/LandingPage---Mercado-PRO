@@ -37,8 +37,8 @@ export const Navbar: React.FC<NavbarProps> = ({ toggleDarkMode, isDarkMode }) =>
               <span className="material-symbols-outlined">dark_mode</span>
             )}
           </button>
-          <a className="hidden sm:block text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-primary" href="https://mercado-lovable3.vercel.app/login" target="_blank" rel="noopener noreferrer">Entrar</a>
-          <a className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-xl text-sm font-extrabold transition-all shadow-lg shadow-primary/20" href="https://mercado-lovable3.vercel.app/login" target="_blank" rel="noopener noreferrer">
+          <a className="hidden sm:block text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-primary" href="https://gestao-negocio.vercel.app/login" target="_blank" rel="noopener noreferrer">Entrar</a>
+          <a className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-xl text-sm font-extrabold transition-all shadow-lg shadow-primary/20" href="https://gestao-negocio.vercel.app/login" target="_blank" rel="noopener noreferrer">
             Começar agora mesmo
           </a>
         </div>

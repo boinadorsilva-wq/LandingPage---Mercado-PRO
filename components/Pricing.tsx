@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const LOGIN_URL = 'https://mercado-lovable3.vercel.app/login';
+const LOGIN_URL = 'https://gestao-negocio.vercel.app/login';
 
 const PLANS = [
     {
@@ -79,8 +79,8 @@ export const Pricing: React.FC = () => {
                     <div
                         key={plan.name}
                         className={`relative rounded-4xl border p-10 flex flex-col gap-8 transition-all duration-300 ${plan.highlight
-                                ? 'bg-white dark:bg-slate-800 border-primary shadow-2xl shadow-primary/20 scale-105'
-                                : 'bg-white dark:bg-slate-800 border-slate-100 dark:border-slate-700 hover:shadow-xl hover:-translate-y-1'
+                            ? 'bg-white dark:bg-slate-800 border-primary shadow-2xl shadow-primary/20 scale-105'
+                            : 'bg-white dark:bg-slate-800 border-slate-100 dark:border-slate-700 hover:shadow-xl hover:-translate-y-1'
                             }`}
                     >
                         {plan.badge && (
@@ -114,8 +114,8 @@ export const Pricing: React.FC = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`w-full py-4 rounded-2xl text-sm font-black text-center transition-all ${plan.highlight
-                                    ? 'bg-primary hover:bg-primary-dark text-white shadow-xl shadow-primary/30 transform hover:-translate-y-0.5'
-                                    : 'bg-slate-50 dark:bg-slate-700 text-slate-700 dark:text-white border border-slate-100 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-600'
+                                ? 'bg-primary hover:bg-primary-dark text-white shadow-xl shadow-primary/30 transform hover:-translate-y-0.5'
+                                : 'bg-slate-50 dark:bg-slate-700 text-slate-700 dark:text-white border border-slate-100 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-600'
                                 }`}
                         >
                             {plan.cta}

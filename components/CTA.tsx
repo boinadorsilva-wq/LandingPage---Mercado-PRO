@@ -15,10 +15,10 @@ export const CTA: React.FC = () => {
           </p>
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-6 justify-center">
-          <a href="https://mercado-lovable3.vercel.app/login" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-12 py-6 bg-primary hover:bg-primary-dark text-white text-xl font-black rounded-2xl transition-all shadow-2xl shadow-primary/30 transform hover:-translate-y-1 text-center">
+          <a href="https://gestao-negocio.vercel.app/login" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-12 py-6 bg-primary hover:bg-primary-dark text-white text-xl font-black rounded-2xl transition-all shadow-2xl shadow-primary/30 transform hover:-translate-y-1 text-center">
             Experimentar agora grátis
           </a>
-          <a href="https://mercado-lovable3.vercel.app/login" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-12 py-6 bg-white dark:bg-slate-800 border-2 border-slate-100 dark:border-slate-700 text-slate-700 dark:text-slate-200 font-bold rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-700 transition-all text-center">
+          <a href="https://gestao-negocio.vercel.app/login" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-12 py-6 bg-white dark:bg-slate-800 border-2 border-slate-100 dark:border-slate-700 text-slate-700 dark:text-slate-200 font-bold rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-700 transition-all text-center">
             Começar agora
           </a>
         </div>
