@@ -12,7 +12,11 @@ import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 import { Pricing } from './components/Pricing';
 
 const App: React.FC = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
+  useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
 
   const toggleDarkMode = () => {
     const newMode = !isDarkMode;

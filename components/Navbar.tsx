@@ -16,7 +16,7 @@ export const Navbar: React.FC<NavbarProps> = ({ toggleDarkMode, isDarkMode }) =>
               <span className="material-symbols-outlined font-bold text-2xl">shopping_cart</span>
             </div>
             <span className="text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white font-display">
-              Mercado<span className="text-primary">Pro</span>
+              Gestão<span className="text-primary">negocio</span>
             </span>
           </div>
           <div className="hidden md:flex items-center gap-8">
