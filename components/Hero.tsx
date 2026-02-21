@@ -17,7 +17,7 @@ export const Hero: React.FC = () => {
           Seja mercado, hortifrúti, adega, conveniência ou loja de ração — controle estoque, vendas e lucro com o sistema mais simples do Brasil.
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-          <a href="https://gestao-negocio.vercel.app/login" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-10 py-5 bg-primary hover:bg-primary-dark text-white text-lg font-black rounded-2xl transition-all shadow-2xl shadow-primary/30 transform hover:-translate-y-1 text-center">
+          <a href="https://mercardoproo.vercel.app/login" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-10 py-5 bg-primary hover:bg-primary-dark text-white text-lg font-black rounded-2xl transition-all shadow-2xl shadow-primary/30 transform hover:-translate-y-1 text-center">
             Começar grátis agora
           </a>
           <a href="#como-funciona" className="w-full sm:w-auto px-10 py-5 bg-white dark:bg-slate-800 border-2 border-slate-100 dark:border-slate-700 text-slate-700 dark:text-slate-200 font-bold rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-700 transition-all text-center">

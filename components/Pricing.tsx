@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const LOGIN_URL = 'https://gestao-negocio.vercel.app/login';
+const LOGIN_URL = 'https://mercardoproo.vercel.app/login';
 
 const PLANS = [
     {
